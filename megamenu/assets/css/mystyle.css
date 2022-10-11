@@ -1,0 +1,49 @@
+section{
+    height: 50vh;
+}
+button:focus,
+.navbar-toggler:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.menu-wrapper{
+    background-color: dark;
+   
+}
+.menu-wrapper .navbar-brand{
+    color: pink;
+    
+}
+.menu-wrapper .navbar-brand:hover{
+    color: yellow;
+}
+.menu-wrapper .navbar-nav .nav-item{
+    margin: 0 10px;
+}
+.menu-wrapper .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 400px;
+    color: white;
+    display: inline-block;
+}
+.menu-wrapper .dropdown-menu .dropdown-item{
+    margin-bottom: 10px;
+}
+.menu-wrapper .dropdown-menu .dropdown-item:hover{
+    background-color: forestgreen;
+}
+
+.menu-wrapper .dropdown-mega .dropdown-menu{
+    background-color: white;
+    width: 100%;
+}
+.menu-wrapper .dropdown-mega h5{
+    padding-bottom: 12px;
+    border-bottom: 1px solid;
+    margin: 0;
+}
+.menu-wrapper .list-group-item{
+    font-size: 16px; 
+    border: 0;
+    padding: 12px 0;
+}
